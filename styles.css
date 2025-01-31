@@ -1,0 +1,86 @@
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introducirTareas {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url(kelly-sikkema-UQZvynxNuqg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    background: linear-gradient(to right, #FFFBAC, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+h2 {
+    font-size: 40px;
+    color: honeydew;
+}
+
+.introduccion {
+    padding: 10px;
+    width: 40%;
+}
+
+.btn {
+    padding: 20px;
+    background-color: #00B8A9;
+}
+
+.listadisenyo {
+    list-style: none;
+    padding: 10px;
+    background-color: #B9BBDF;
+    width: 30%;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tachar {
+    text-decoration: line-through;
+    background-color: #878ECD;
+    transition: all 2s ease;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .listadisenyo {        
+        width: 60%;        
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .listadisenyo {        
+        width: 80%;        
+    }
+    .introduccion {        
+        width: 70%;
+    }
+}
