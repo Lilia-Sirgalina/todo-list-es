@@ -1,7 +1,7 @@
 # To-Do List App
 
-## 🚀 Demo  
-🔗 [View the app on Glitch]([https://lily-lista-de-tareas.glitch.me])
+##  Demo  
+🔗 [View the app on Glitch](https://lily-lista-de-tareas.glitch.me)
 
 ## Project Description
 
