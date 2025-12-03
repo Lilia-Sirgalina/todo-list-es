@@ -1,7 +1,7 @@
 # To-Do List App
 
 ##  Demo  
-🔗 [View the app on Glitch](https://lily-lista-de-tareas.glitch.me)
+🔗 [View the app on Netlify](https://lily-lista-de-tareas.netlify.app)
 
 ## Project Description
 
